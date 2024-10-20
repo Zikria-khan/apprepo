@@ -1,0 +1,99 @@
+/* General Container for Register Page */
+.register-container {
+    padding: 20px;
+    max-width: 400px; /* Limit max width for large screens */
+    margin: auto; /* Centering the container */
+    background-color: #fff; /* White background for contrast */
+    border-radius: 8px; /* Rounded corners for the container */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Title Style */
+.register-title {
+    text-align: center; /* Center the title */
+    color: #333; /* Darker color for the title */
+    font-size: 24px; /* Larger font for title */
+    margin-bottom: 20px; /* Space below the title */
+}
+
+/* Form Style */
+.register-form {
+    display: flex;
+    flex-direction: column; /* Stack form elements vertically */
+}
+
+/* Input Group */
+.input-group {
+    margin-bottom: 15px; /* Space between input groups */
+}
+
+/* Label Style */
+.input-group label {
+    font-weight: bold; /* Bold labels for clarity */
+    margin-bottom: 5px; /* Space below the label */
+}
+
+/* Input Field Style */
+.input-group input {
+    width: 100%; /* Full width for inputs */
+    padding: 10px; /* Padding for better touch targets */
+    border: 1px solid #e0e0e0; /* Border color */
+    border-radius: 5px; /* Rounded corners for inputs */
+    font-size: 16px; /* Font size for inputs */
+}
+
+/* Register Button Style */
+.btn-register {
+    background-color: #ff3f6c; /* Myntra pink color */
+    color: white; /* White text color */
+    border: none; /* No border */
+    padding: 10px; /* Padding for better touch targets */
+    border-radius: 5px; /* Rounded corners for button */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Transition effect */
+    font-size: 18px; /* Larger font size */
+}
+
+/* Button Hover Effect */
+.btn-register:hover {
+    background-color: #e63946; /* Darker shade on hover */
+}
+
+/* Login Link */
+.login-link {
+    text-align: center; /* Center text */
+    margin-top: 20px; /* Space above link */
+}
+
+/* Back to Home Link */
+.back-home {
+    display: block;
+    text-align: center;
+    margin-top: 20px; /* Space above link */
+    color: #007bff; /* Bootstrap link color */
+    text-decoration: none; /* Remove underline */
+}
+
+.back-home:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+    .register-container {
+        padding: 15px; /* Reduce padding on smaller screens */
+        max-width: 90%; /* Max width for smaller screens */
+    }
+
+    .register-title {
+        font-size: 20px; /* Slightly smaller font size for mobile */
+    }
+
+    .input-group input {
+        font-size: 14px; /* Smaller font size for inputs */
+    }
+
+    .btn-register {
+        font-size: 16px; /* Smaller font size for button */
+    }
+}

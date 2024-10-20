@@ -1,0 +1,63 @@
+.add-product-container {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff; /* Light background for contrast */
+}
+
+.add-product-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    text-align: center; /* Center the title */
+    color: #333; /* Dark color for better visibility */
+}
+
+.add-product-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-field {
+    margin-bottom: 1rem;
+    padding: 0.8rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.input-field:focus {
+    border-color: #ff4081; /* Highlight on focus */
+    outline: none;
+}
+
+.description-field {
+    height: 100px; /* Increased height for better usability */
+}
+
+.btn-add-product {
+    padding: 0.8rem;
+    background-color: #ff4081; /* Myntra pink color */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-add-product:hover {
+    background-color: #e91e63; /* Darker pink on hover */
+}
+
+@media (max-width: 600px) {
+    .add-product-container {
+        padding: 1rem; /* Adjust padding on smaller screens */
+    }
+
+    .add-product-title {
+        font-size: 20px; /* Smaller title on small screens */
+    }
+}
