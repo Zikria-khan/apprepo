@@ -21,7 +21,11 @@ app.use((err, req, res, next) => {
     console.error(err.stack);
     res.status(500).send('Something broke!');
 });
-
+app.use("/",(req,res)=>{
+    res.status(200).json({
+        message:"success"
+    })
+       )
 app.use('/api/auth', authRoutes);
 app.use('/api/cart', cartRoutes);
 app.use('/api/products', productRoutes);
